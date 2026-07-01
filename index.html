@@ -3,27 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAI2SHI Technologies</title>
+    <title>SAI2SHI Technologies | Managed IT Services & Cybersecurity</title>
+    <meta name="description" content="SAI2SHI Technologies is a managed service provider delivering proactive IT support, cybersecurity, cloud, and networking so you can focus on growing your business.">
+    <meta name="theme-color" content="#0e0e0f">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>SAI2SHI Technologies</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+    <header class="site-header">
+        <div class="container nav">
+            <a href="index.html" class="brand"><span class="mark">S</span> SAI2SHI</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html" class="active">Home</a>
+                <a href="index.html#services">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+        </div>
     </header>
+
     <main>
+        <!-- Hero -->
         <section class="hero">
-            <h2>IT Solutions Provider</h2>
-            <p>"You Focus on Business. We Handle IT."</p>
-            <a href="contact.html" class="cta-btn">Get in Touch</a>
+            <div class="container hero-inner">
+                <span class="eyebrow">Managed Service Provider</span>
+                <h1>You focus on business.<br><span class="accent">We handle IT.</span></h1>
+                <p class="lead">Proactive managed IT, cybersecurity, and cloud services that keep your operations secure, fast, and always running.</p>
+                <div class="hero-actions">
+                    <a href="contact.html" class="btn btn-primary">Get a Free Assessment</a>
+                    <a href="index.html#services" class="btn btn-ghost">Explore Services</a>
+                </div>
+                <div class="badge-row">
+                    <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> 24/7 Monitoring</span>
+                    <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Rapid Response</span>
+                    <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg> Enterprise-Grade Security</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="stats">
+            <div class="container stats-grid">
+                <div class="stat"><div class="num">99.9%</div><div class="label">Uptime delivered</div></div>
+                <div class="stat"><div class="num">15min</div><div class="label">Avg. response time</div></div>
+                <div class="stat"><div class="num">24/7</div><div class="label">Support &amp; monitoring</div></div>
+                <div class="stat"><div class="num">150+</div><div class="label">Businesses served</div></div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section" id="services">
+            <div class="container">
+                <div class="section-head center">
+                    <span class="eyebrow">What We Do</span>
+                    <h2>Complete IT solutions under one roof</h2>
+                    <p>From day-to-day support to strategic technology planning, we cover every layer of your IT stack.</p>
+                </div>
+                <div class="grid grid-3">
+                    <article class="card">
+                        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+                        <h3>Managed IT Support</h3>
+                        <p>A dedicated helpdesk and on-site expertise that resolves issues fast and keeps your team productive.</p>
+                    </article>
+                    <article class="card">
+                        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5l-8-3z"/></svg></div>
+                        <h3>Cybersecurity</h3>
+                        <p>Multi-layered protection with threat monitoring, endpoint defense, and employee awareness training.</p>
+                    </article>
+                    <article class="card">
+                        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.5 19a4.5 4.5 0 0 0 .5-8.97A6 6 0 0 0 6.5 9 4.5 4.5 0 0 0 7 19h10.5z"/></svg></div>
+                        <h3>Cloud Solutions</h3>
+                        <p>Seamless migration, management, and optimization across Microsoft 365, Azure, and AWS.</p>
+                    </article>
+                    <article class="card">
+                        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="8" cy="6" r="1.5" fill="currentColor"/><circle cx="16" cy="12" r="1.5" fill="currentColor"/><circle cx="10" cy="18" r="1.5" fill="currentColor"/></svg></div>
+                        <h3>Network &amp; Infrastructure</h3>
+                        <p>Design, deployment, and management of resilient networks built to scale with your business.</p>
+                    </article>
+                    <article class="card">
+                        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+                        <h3>Backup &amp; Recovery</h3>
+                        <p>Automated backups and tested disaster recovery so your data is always safe and restorable.</p>
+                    </article>
+                    <article class="card">
+                        <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M2 12h3M19 12h3M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></div>
+                        <h3>IT Strategy &amp; Consulting</h3>
+                        <p>Virtual CIO guidance and technology roadmaps that align your IT investments with business goals.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why choose us -->
+        <section class="section" style="border-top:1px solid var(--border);">
+            <div class="container split">
+                <img src="assets/team.png" alt="SAI2SHI network operations center monitoring client systems around the clock">
+                <div>
+                    <span class="eyebrow">Why SAI2SHI</span>
+                    <h2>A proactive partner, not just a vendor</h2>
+                    <p style="color:var(--muted);">We understand every client&apos;s unique challenges and deliver tailored IT solutions that make operations smarter, faster, and more secure.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+                            <div><h4>Predictable flat-rate pricing</h4><p>No surprise invoices &mdash; one clear monthly plan covering your entire IT.</p></div>
+                        </li>
+                        <li>
+                            <span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+                            <div><h4>Response in minutes, not days</h4><p>Real engineers, real answers, with guaranteed SLAs you can count on.</p></div>
+                        </li>
+                        <li>
+                            <span class="tick"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6 9 17l-5-5"/></svg></span>
+                            <div><h4>Security-first by design</h4><p>We build defense into every layer of your environment from day one.</p></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section">
+            <div class="container">
+                <div class="cta-band">
+                    <h2>Ready to simplify your technology?</h2>
+                    <p>Book a free, no-obligation IT assessment and see how we can secure and streamline your business.</p>
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                </div>
+            </div>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2025 SAI2SHI Technologies</p>
+
+    <footer class="site-footer">
+        <div class="container footer-top">
+            <div>
+                <a href="index.html" class="brand" style="margin-bottom:14px;"><span class="mark">S</span> SAI2SHI</a>
+                <p>Managed IT services that let you focus on business while we handle the technology.</p>
+            </div>
+            <div class="footer-col">
+                <h5>Company</h5>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="index.html#services">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h5>Contact</h5>
+                <a href="mailto:hello@sai2shi.work">hello@sai2shi.work</a>
+                <a href="tel:+10000000000">+1 (000) 000-0000</a>
+            </div>
+        </div>
+        <div class="footer-bottom">&copy; 2025 SAI2SHI Technologies. All rights reserved.</div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
